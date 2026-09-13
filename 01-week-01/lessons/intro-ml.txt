@@ -1,0 +1,37 @@
+Case study  -- Predicting a car price
+
+ML -- We take a dataset with these characteristics and the prices, put it into a machine learning algorithm, and the model learns the patterns itself. This is the essence of machine learning: we take data, and the model extracts patterns from it. This way we replicate what experts learn from data.
+
+1. Features and target
+
+Two names to remember:
+
+    Features - everything we know about the object. In our example: the age, manufacturer, mileage and other characteristics of a car.
+    Target - what we want to predict. In our example: the price.
+
+
+2. Training a model
+
+Training means taking the features and the target and giving them to a machine learning algorithm. The algorithm produces a model.The model encapsulates all the patterns it learned from the data. It is a single artifact we can save and use later.
+
+
+3.  Making predictions
+
+Once we have the model, we can use it to predict prices of cars for which we don't know the price. We take the features - all the information about a car except the price, because this is what we want to predict - put them into the model, and the model outputs the prediction. The model is not always able to predict the exact price of a specific car. But the predictions are usually correct on average: for a car of this year, this make and this mileage, this is roughly how much such a car costs. For a specific car it might be a bit lower or higher.
+
+
+Summary of What is ML --->  machine learning is a process of extracting patterns from data. The data consists of features - information about the object - and the target - what we want to predict. The output of machine learning is a model. To use it, we take the features of a new object, put them into the model, and get predictions of the target.
+
+
+
+*** KEY NOTES **
+The concept of ML is depicted with an example of predicting the price of a car. The ML model learns from data, represented as some features such as year, mileage, among others, and the target variable, in this case, the car's price, by extracting patterns from the data.
+
+Then, the model is given new data (without the target) about cars and predicts their price (target).
+
+In summary, ML is a process of extracting patterns from data, which is of two types:
+
+    features (information about the object) and
+    target (property to predict for unseen objects).
+
+Therefore, new feature values are presented to the model, and it makes predictions from the learned patterns.
