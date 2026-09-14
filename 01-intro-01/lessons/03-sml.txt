@@ -1,0 +1,28 @@
+Supervised machine learning is about teaching an algorithm by showing it examples. The examples go into the feature matrix X - all the characteristics of the objects we want to make predictions for - and the vector y is the target we want to learn.
+
+The goal is to come up with a function g such that when we apply it to the feature matrix, we get something very close to the target variable. Inside, g extracts patterns from X. What exactly g looks like is what we will talk about throughout the course.
+
+Depending on the type of the target variable, we get regression, classification - which can be multiclass or binary - and ranking.
+
+A memthodology for organising maachine learning projects that would be looked at the next lesson called  "CRISP-DM"
+
+---> Cross-Industry Standard Process for Data Mining
+
+
+Notes
+
+In Supervised Machine Learning (SML) there are always labels associated with certain features. The model is trained, and then it can make predictions on new features. In this way, the model is taught by certain features and targets.
+
+    Feature matrix (X): made of observations or objects (rows) and features (columns).
+    Target variable (y): a vector with the target information we want to predict. For each row of X there's a value in y.
+
+The model can be represented as a function, g, that takes the feature matrix, X, as input and tries to predict values as close as possible to the targets, y. The process of finding this function g is called training.
+Types of SML problems
+
+    Regression: the output is a number (car's price).
+    Classification: the output is a category (spam example).
+        Binary: there are two categories.
+        Multiclass problems: there are more than two categories.
+    Ranking: the output is the top scores associated with corresponding items. It is applied in recommender systems.
+
+In summary, SML is about teaching the model by showing it different examples, and the goal is to come up with a function, that takes the feature matrix as input, and makes predictions of values as close as possible to the y targets.
