@@ -1,0 +1,1 @@
+In this lesson we do a quick introduction to NumPy: the functions for creating arrays, multi-dimensional arrays, randomly generated arrays, element-wise operations, comparison operations and summarizing operations. These are the things we will use constantly throughout the course.
