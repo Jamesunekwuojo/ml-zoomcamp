@@ -1,0 +1,3 @@
+Introduction to Pandas
+
+IPandas, a library for manipulating tabular data in Python. We look at DataFrames and Series, indexing and accessing elements, element-wise operations, filtering, string operations, summarizing operations, missing values and grouping.
